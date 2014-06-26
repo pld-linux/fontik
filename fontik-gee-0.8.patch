@@ -1,0 +1,12 @@
+diff -up fontik-5dbbc513/Makefile.geefix fontik-5dbbc513/Makefile
+--- fontik-5dbbc513/Makefile.geefix	2012-03-05 13:13:17.136741587 -0500
++++ fontik-5dbbc513/Makefile	2012-03-05 13:13:30.847591332 -0500
+@@ -19,7 +19,7 @@ PROGRAM_FILES = $(PROGRAM_SOURCES) \
+              COPYING README
+ PROGRAM_TGZ = $(PACKAGE)-$(PACKAGE_VERSION).tar.gz
+ 
+-LIBS = --pkg gtk+-2.0 --pkg gee-1.0 --pkg gmodule-2.0 --pkg libxml-2.0
++LIBS = --pkg gtk+-2.0 --pkg gee-0.8 --pkg gmodule-2.0 --pkg libxml-2.0
+ 
+ all: $(PROGRAM)
+ 

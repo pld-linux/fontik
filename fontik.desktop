@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Fontik
+GenericName=Fontik Fontconfig Cofiguration Tool
+Comment=Configure Font-wise, User-set Fontconfig Rules
+Exec=fontik
+#Icon=fontik
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;
