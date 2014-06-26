@@ -1,3 +1,5 @@
+# TODO
+# - use xdg paths (~/.config/fontconfig/fonts.conf instead of ~/fonts.conf) and (~/.config/fontik instead of ~/.fontik)
 %define	subver	5dbbc513
 %define	rel		1
 Summary:	A Configuration Tool for Font-wise, User-set Fontconfig Rules
